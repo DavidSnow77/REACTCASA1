@@ -1,4 +1,5 @@
 import { styles } from "@/styles/globalStyles";
+import { router } from "expo-router";
 import { useState, useRef } from "react";
 import {
   View,
@@ -87,10 +88,18 @@ export default function EmailVerification() {
             keyboardType="numeric"
           />
         </View>
-        <Pressable style={style.botones}>
+        <Pressable
+          style={style.botones}
+          onPress={() => router.push("/verifiedEmail")}
+        >
           <Text style={style.textoBoton}>Verificar codigo</Text>
         </Pressable>
-        <Text style={style.separador}>¿No recibiste el codigo?</Text>
+        <View style={style.containerLast}>
+          <Text style={style.separador}>
+            ¿No recibiste el código?
+            <Text style={style.links}> Reenviar</Text>
+          </Text>
+        </View>
       </ScrollView>
     </KeyboardAvoidingView>
   );

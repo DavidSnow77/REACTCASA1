@@ -196,4 +196,17 @@ export const styles = (isDark: boolean) =>
       marginBottom: 30,
       backgroundColor: "#764ba2",
     },
+    image2: {
+      width: 150,
+      height: 150,
+      borderRadius: 20,
+      resizeMode: "contain", // ajusta la imagen dentro del área es decir dentro de width y heigth
+      elevation: 5,
+      marginBottom: 30,
+    },
+    containerLast: {
+      justifyContent: "center",
+      alignItems: "center",
+      padding: 10,
+    },
   });
