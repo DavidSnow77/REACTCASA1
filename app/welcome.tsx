@@ -1,4 +1,5 @@
 import { styles } from "@/styles/globalStyles";
+import { router } from "expo-router";
 import {
   Text,
   Button,
@@ -24,7 +25,7 @@ export default function Welcome() {
           style={style.image}
         ></Image>
       </View>
-      <Pressable style={style.botones}>
+      <Pressable style={style.botones} onPress={() => router.push("/(tabs)")}>
         <Text style={style.textoBoton}>Comenzar</Text>
       </Pressable>
     </ScrollView>
