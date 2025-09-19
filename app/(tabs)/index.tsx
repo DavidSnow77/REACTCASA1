@@ -9,6 +9,7 @@ export default function HomeScreen() {
       <Text>
         ESTE CAMBIO LO HIZE DESDE MI RAMA RAMA PERO LO FUSIONE EN QA ALV
       </Text>
+      <Text>HOLA LO HIZE DESDE MI RAMA RAMA PERO LO FUSIONE EN QA ALV</Text>
     </View>
   );
 }
