@@ -11,7 +11,10 @@ export default function HomeScreen() {
         SERA QUE ESTE CAMBIO QUE HAGA EN RAMA ME TRAERA UN CONFLICTO AL FUSIONAR
         EN QA?
       </Text>
-      <Text>CMABIE EL TEXTO EN RAMA PERO LO VOY A FUSIONAR EN QA S</Text>
+      <Text>
+        CMABIE EL TEXTO EN RAMA PERO LO VOY A FUSIONAR EN QA HABER SI TENGO
+        CONFLICTOS
+      </Text>
     </View>
   );
 }
