@@ -12,7 +12,8 @@ export default function HomeScreen() {
         VAMOS AVER QUE SUCEDE CON ESTE CAMBIO QUE LO HICE EN RAMA Y LO FUSIONE
         EN QA
       </Text>
-      <Text>CAMBIO QUE HICE EN RAMA Y LO FUSIONE EN QA</Text>
+      <Text>CCCAMBIO QUE HICE EN RAMA Y LO FUSIONE EN QAAAAAAAAAA</Text>
+      <Text>CAMBIO DE RAMA Y LO FSIONE EN QA ALV</Text>
     </View>
   );
 }
