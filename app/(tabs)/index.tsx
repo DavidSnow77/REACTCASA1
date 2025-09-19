@@ -6,6 +6,9 @@ export default function HomeScreen() {
       <Text>🏠ESTA ES LA PAGINA PRINCIPAL ESTAMOS EN RAMA</Text>
       <Pressable>CLICKME</Pressable>
       <Text>NECESITAMOS CONFLICTOS</Text>
+      <Text>
+        ESTE CAMBIO LO HIZE DESDE MI RAMA RAMA PERO LO FUSIONE EN QA ALV
+      </Text>
     </View>
   );
 }
