@@ -7,8 +7,9 @@ export default function HomeScreen() {
       <Pressable>CLICKME NO?</Pressable>
       <Pressable>ESTE TEXTO LO MODIFIQUE EN QA</Pressable>
       <Text>ESTE CAMBIO LO HIZE DESDE MI RAMA PERO VAMOS A QA</Text>
-      <Text>CMABIE EL TEXTO EN RAMA PERO LO VOY A FUSIONAR EN QA S</Text>
+      <Text>CMABIE EL TEXTO EN RAMA PERO LO VOY A FUSIONAR EN QA SIIUU</Text>
       <Text>VAMOS AVER QUE SUCEDE</Text>
+      <Text>CAMBIO QUE HICE EN RAMA Y LO FUSIONE EN QA</Text>
     </View>
   );
 }
