@@ -14,6 +14,7 @@ export default function HomeScreen() {
       </Text>
       <Text>CAMBIO QUE HICE EN RAMA Y LO FUSIONE EN QA</Text>
       <Text>CAMBIO DE RAMA Y LO FSIONE EN QA ALV</Text>
+      <Text>QUIERO FUSIONAR ESTO MEN</Text>
     </View>
   );
 }
